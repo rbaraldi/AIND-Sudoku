@@ -3,11 +3,11 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The *naked twins* strategy looks for two squares in the same unit that both have the same two possible digits. By the use of constraint propagation we can look at each box of the unit and apply the elimination strategy for any box that has one or both *twins* numbers, this approach results in a reduction of the search area.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Basically in the same way that solve to the unit, both diagonals are just additional units to be considered at the iterations. Thus, the elimination technique is not only applied to rows, columns and the 3x3 square, but also for both board diagonals.
 
 ### Install
 
